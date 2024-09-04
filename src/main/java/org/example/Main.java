@@ -72,9 +72,8 @@ public class Main {
     }
 
     public void drawRectangle(int width, int length) {
-        //nested loop
-        for (int i = 1; i <= width; i++) { //outer loop untuk row atau baris
-            for (int j = 1; j <= length; j++) { // inner loop untuk column
+        for (int i = 1; i <= width; i++) {
+            for (int j = 1; j <= length; j++) {
                 System.out.print("*");
             }
             System.out.println();
